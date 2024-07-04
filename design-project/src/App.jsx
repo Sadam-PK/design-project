@@ -1,8 +1,7 @@
 import "./App.css";
+import "./index.css";
 import Logo from "./components/Logo";
 import Menu from "./components/Menu";
-
-import "./index.css";
 import mountain from "../src/assets/img_1_long.jpg.webp";
 import video from "../src/assets/video-player.svg";
 import food from "../src/assets/001-breakfast.svg";
@@ -21,6 +20,7 @@ import person3 from "./assets/person_3.jpg.webp";
 import mountain_climb from "./assets/img_5.jpg.webp";
 import ReviewStars from "./components/ReviewStar";
 import Footer from "./components/Footer";
+import VideoButton from "./components/VideoButton";
 
 function App() {
   return (
@@ -52,7 +52,7 @@ function App() {
           <img src={mountain} alt="mountain image" />
         </div>
         <div className="pl-14">
-          <h1 className="text-3xl mt-24">Welcome To Our Website</h1>
+          <h1 className="text-3xl mt-44">Welcome To Our Website</h1>
           <p className="mt-6 leading-loose">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
@@ -63,15 +63,16 @@ function App() {
             A small river named Duden flows by their place and supplies it with
             the necessary regelialia.
           </p>
-          <div className="mt-8 flex row-auto items-center">
-            <img
+          <div className="">
+            {/* <img
               src={video}
               alt="video player"
               width={50}
               height={50}
               className="mr-4"
             />
-            <a href="#">WATCH THE VIDEO</a>
+            <a href="#">WATCH THE VIDEO</a> */}
+            <VideoButton/>
           </div>
         </div>
       </div>
