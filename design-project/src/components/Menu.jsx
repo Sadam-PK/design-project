@@ -5,7 +5,7 @@ export default function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="py-8 relative inline-block text-left">
       <div>
         <button
           type="button"

@@ -25,25 +25,34 @@ import VideoButton from "./components/VideoButton";
 function App() {
   return (
     <>
-      <div className="background">
-        <div className="flex justify-between p-5">
+      <div className="background relative">
+        {/* overlay for background */}
+        <div className="absolute inset-0 bg-gray-600 opacity-50" />
+        <div className="flex justify-between p-5 relative">
           <Logo />
           <Menu />
         </div>
         <div
-          className="text-black flex flex-col 
-        justify-center items-center h-80 text-3xl"
+          className="text-white flex flex-col 
+        justify-center items-center h-80 relative"
         >
-          <h1 className="mb-5">Travel & Tours</h1>
-          <h1>A free template by Colorlib. Download and share!</h1>
-          <div>
-            <button
-              className="border-2 p-3 rounded-lg hover:bg-white hover:text-black
-              mt-10 text-white  border-white border-solid"
+          <h1 className="mb-5 text-7xl font-bold">Travel & Tours</h1>
+          <h1 className="text-2xl font-light">
+            A free template by{" "}
+            <a
+              href="#"
+              className="text-gray-300 hover:underline hover:text-white"
             >
-              VISIT COLORLIS
-            </button>
-          </div>
+              Colorlib
+            </a>
+            . Download and share!
+          </h1>
+          <button
+            className="border-2 p-3 rounded-md hover:bg-white hover:text-black
+              mt-10 text-white  border-white border-solid font-thin"
+          >
+            VISIT COLORLIS
+          </button>
         </div>
       </div>
 
@@ -64,15 +73,7 @@ function App() {
             the necessary regelialia.
           </p>
           <div className="">
-            {/* <img
-              src={video}
-              alt="video player"
-              width={50}
-              height={50}
-              className="mr-4"
-            />
-            <a href="#">WATCH THE VIDEO</a> */}
-            <VideoButton/>
+            <VideoButton />
           </div>
         </div>
       </div>

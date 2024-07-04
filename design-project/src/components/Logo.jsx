@@ -1,6 +1,6 @@
 export default function Logo(){
     return (
-        <div className="pt-5 text-xl font-bold text-black">
+        <div className="py-10 text-3xl font-bold text-white">
             <h1>Hepta</h1>
         </div>
     )
