@@ -6,6 +6,11 @@ import "./index.css";
 import mountain from "../src/assets/img_1_long.jpg.webp";
 import video from "../src/assets/video-player.svg";
 import food from "../src/assets/001-breakfast.svg";
+import planet from "../src/assets/002-planet-earth.svg";
+import airplane from "../src/assets/003-airplane.svg";
+import beach2 from "../src/assets/004-beach.svg";
+import mountains from "../src/assets/005-mountains.svg";
+import balloons from "../src/assets/006-hot-air-balloon.svg";
 import ImagesSlider from "../src/components/Slider";
 import fruits from "./assets/img_1.jpg.webp";
 import beach from "./assets/img_2.jpg.webp";
@@ -73,12 +78,12 @@ function App() {
 
       {/* -------------- */}
 
-      <div className="w-4/5 mx-auto h-auto">
-        <div className="w-1/3 mx-auto">
+      <div className="w-4/5 mx-auto h-auto leading-loose">
+        <div className="w-2/3 mx-auto pb-20">
           <h1 className="text-3xl p-3 text-center">
             Experience Once In Your Life Time
           </h1>
-          <p className="leading-loose p-3 text-center">
+          <p className="p-3">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
@@ -86,53 +91,58 @@ function App() {
           </p>
         </div>
 
-        <div className="grid grid-cols-3">
-          <div className="">
-            <img src={food} alt="food" width={80} height="auto" />
-            <h1 className="font-bold">Food</h1>
-            <p>
+        <div className="grid grid-cols-3 text-center">
+          <div className="flex flex-col items-center">
+            <img src={food} alt="food photo" width={80} height="auto" />
+            <h1 className="font-bold p-3">Food</h1>
+            <p className="">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
           </div>
-          <div className="">
-            <img src={food} alt="food" width={80} height="auto" />
-            <h1 className="font-bold">Travel Anywhere</h1>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-          </div>
-
-          <div className="">
-            <img src={food} alt="food" width={80} height="auto" />
-            <h1 className="font-bold">Airplace</h1>
+          <div className="flex flex-col items-center">
+            <img src={planet} alt="planet photo" width={80} height="auto" />
+            <h1 className="font-bold p-3">Travel Anywhere</h1>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
           </div>
 
-          <div className="">
-            <img src={food} alt="food" width={80} height="auto" />
-            <h1 className="font-bold">Food</h1>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-          </div>
-          <div className="">
-            <img src={food} alt="food" width={80} height="auto" />
-            <h1 className="font-bold">Travel Anywhere</h1>
+          <div className="flex flex-col items-center pb-10">
+            <img src={airplane} alt="airplane photo" width={80} height="auto" />
+            <h1 className="font-bold p-3">Airplace</h1>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
             </p>
           </div>
 
-          <div className="">
-            <img src={food} alt="food" width={80} height="auto" />
-            <h1 className="font-bold">Airplace</h1>
+          <div className="flex flex-col items-center pb-10">
+            <img src={beach2} alt="beach photo" width={80} height="auto" />
+            <h1 className="font-bold p-3">Food</h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div className="flex flex-col items-center pb-10">
+            <img
+              src={mountains}
+              alt="mountains photo"
+              width={80}
+              height="auto"
+            />
+            <h1 className="font-bold p-3">Travel Anywhere</h1>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center pb-10">
+            <img src={balloons} alt="balloons photo" width={80} height="auto" />
+            <h1 className="font-bold p-3">Airplace</h1>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts.
@@ -144,10 +154,12 @@ function App() {
       </div>
       <div>
         <div className="w-3/5 mx-auto font-extrabold ">
-          <div className="w-1/2 mx-auto text-center text-4xl p-5">
-            <h2>International Tour Management.</h2>
+          <div className="w-3/3 mx-auto text-center text-4xl p-2">
+            <h2 className="font-bold text-6xl">
+              International Tour Management.
+            </h2>
           </div>
-          <p className="px-12 py-10 text-center">
+          <p className="px-12 py-10 text-center leading-loose text-gray-500 font-light">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
@@ -156,7 +168,7 @@ function App() {
         </div>
       </div>
       <ImagesSlider />
-      <div>
+      <div className=" bg-teal-600 pb-40">
         <div className="w-4/5 mx-auto h-auto">
           <div className="w-2/3 mx-auto text-center py-32">
             <h2 className="p-5 text-5xl font-bold">Recent Blog Post</h2>
@@ -168,7 +180,7 @@ function App() {
             </p>
           </div>
           <div className="grid grid-cols-3">
-            <div className=" w-5/5 mr-10">
+            <div className=" w-5/5 mr-10 bg-white">
               <img src={fruits} width="wx-auto" alt="" />
               <div className=" p-5">
                 <p className="p-3">FEBRUARY 26, 2018</p>
@@ -179,7 +191,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className=" w-5/5 mr-10">
+            <div className=" w-5/5 mr-10 bg-white">
               <img src={beach} width="wx-auto" alt="" />
               <div className=" p-5">
                 <p className="p-3">FEBRUARY 26, 2018</p>
@@ -190,7 +202,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className=" w-5/5 mr-10">
+            <div className=" w-5/5 mr-10 bg-white">
               <img src={interior} width="wx-auto" alt="" />
               <div className="p-5">
                 <p className="p-3">FEBRUARY 26, 2018</p>
@@ -209,20 +221,20 @@ function App() {
         <div className="w-4/5 mx-auto h-auto">
           <div className="w-2/3 mx-auto text-center py-32">
             <h2 className="p-5 text-5xl font-bold">Happy Customers</h2>
-            <p className="leading-loose font">
+            {/* <p className="leading-loose font">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean.
-            </p>
+            </p> */}
           </div>
-          <div className="grid grid-cols-3">
-            <div className="w-5/5 mr-10">
+          <div className="grid grid-cols-3 italic">
+            <div className="w-5/5">
               <img
                 src={person1}
                 width="wx-auto"
                 alt=""
-                className="w-20 h-20 rounded-full object-cover"
+                className="w-20 h-20 rounded-full object-cover ml-8"
               />
               <div className=" p-5">
                 <p className="leading-loose px-3">
@@ -231,14 +243,14 @@ function App() {
                   Separated they live in Bookmarksgrove right at the coast of
                   the Semantics, a large language ocean.”
                 </p>
-                <h3>— Clare Gupta</h3>
+                <h3 className="py-5">— Clare Gupta</h3>
               </div>
             </div>
             <div className=" w-5/5 mr-10">
               <img
                 src={person2}
                 width="wx-auto"
-                className="w-20 h-20 rounded-full object-cover"
+                className="w-20 h-20 rounded-full object-cover ml-8"
                 alt=""
               />
               <div className=" p-5">
@@ -248,7 +260,7 @@ function App() {
                   Separated they live in Bookmarksgrove right at the coast of
                   the Semantics, a large language ocean.”
                 </p>
-                <h3>— Rogie Slater</h3>
+                <h3 className="py-5">— Rogie Slater</h3>
               </div>
             </div>
             <div className=" w-5/5 mr-10">
@@ -256,7 +268,7 @@ function App() {
                 src={person3}
                 width="wx-auto"
                 alt=""
-                className="w-20 h-20 rounded-full object-cover"
+                className="w-20 h-20 rounded-full object-cover ml-8"
               />
               <div className=" p-5">
                 <p className="leading-loose px-3">
@@ -265,12 +277,13 @@ function App() {
                   Separated they live in Bookmarksgrove right at the coast of
                   the Semantics, a large language ocean.”
                 </p>
-                <h3>— John Doe</h3>
+                <h3 className="py-5">— John Doe</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div>
         <div className="w-4/5 mx-auto h-auto">
           <div className="w-2/3 mx-auto text-center py-32">
@@ -327,7 +340,7 @@ function App() {
         </div>
       </div>
       <div className="h-40"></div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

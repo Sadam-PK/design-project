@@ -21,26 +21,31 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="relative flex items-center justify-center w-full h-screen bg-gray-100">
-      <button
-        onClick={goToPrevious}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center h-12 w-12 text-white bg-black bg-opacity-50 hover:bg-opacity-75 rounded-full z-10"
-      >
-        &#10094;
-      </button>
-      <div className="relative w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
-        <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex + 1}`}
-          className="w-full"
-        />
+    <div className="relative flex items-center justify-center  w-full h-screen ">
+      <div className="shadow-xl shadow-gray-400">
+        <button
+          onClick={goToPrevious}
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center h-12 w-12 text-white bg-black bg-opacity-50 hover:bg-opacity-75 rounded-full z-10"
+        >
+          &#10094;
+        </button>
+        <div className="relative w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
+          <img
+            src={images[currentIndex]}
+            alt={`Slide ${currentIndex + 1}`}
+            className="w-full"
+          />
+        </div>
+        <button
+          onClick={goToNext}
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 
+        flex items-center justify-center h-12 w-12 text-white
+         bg-black bg-opacity-50 hover:bg-opacity-75 rounded-full z-10
+         "
+        >
+          &#10095;
+        </button>
       </div>
-      <button
-        onClick={goToNext}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center h-12 w-12 text-white bg-black bg-opacity-50 hover:bg-opacity-75 rounded-full z-10"
-      >
-        &#10095;
-      </button>
     </div>
   );
 }
