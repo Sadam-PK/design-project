@@ -6,6 +6,10 @@ module.exports = {
       colors: {
         customTeal: "#65c0ba",
       },
+      fontFamily: {
+        fatface: ['"Abril Fatface"', "serif"],
+        mukta: ['"Mukta Mahee"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

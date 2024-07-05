@@ -5,11 +5,10 @@ export default function EmailInput() {
     <div className="flex items-center   p-2 rounded mt-5">
       <input
         type="email"
-        placeholder="Your email..."
-        
+        placeholder="Your email..." 
         className="bg-transparent border-b-2 bg-black bg-opacity-95
         indent-2 italic p-3 border-gray-700
-         text-white placeholder-gray-700 focus:outline-none"
+         text-white placeholder-gray-600 focus:outline-none text-sm"
       />
       <button className="text-white p-2">
         <svg
