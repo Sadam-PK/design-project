@@ -8,7 +8,7 @@ module.exports = {
       },
       fontFamily: {
         fatface: ['"Abril Fatface"', "serif"],
-        mukta: ['"Mukta Mahee"', 'sans-serif'],
+        mukta: ['"Mukta Mahee"', "sans-serif"],
       },
     },
   },

@@ -5,13 +5,13 @@ import person3 from "../assets/person_3.jpg.webp";
 export default function () {
   return (
     <div>
-      <div className="w-4/5 mx-auto h-auto">
-        <div className="w-2/3 mx-auto text-center py-32">
-          <h2 className="p-5 text-6xl font-extrabold font-fatface">
-            Happy Customers
-          </h2>
-        </div>
-        <div className="grid grid-cols-3 italic">
+      <div className="sm:w-4/5 mx-auto text-center  py-20 h-auto">
+        <h2 className="text-3xl sm:p-5 sm:text-7xl  font-fatface">
+          Happy Customers
+        </h2>
+        <div className="w-2/3 mx-auto text-center py-32"></div>
+
+        <div className="sm:grid grid-cols-3 italic">
           <div className="w-5/5">
             <img
               src={person1}
@@ -19,8 +19,8 @@ export default function () {
               alt=""
               className="w-20 h-20 rounded-full object-cover ml-8"
             />
-            <div className=" p-5">
-              <p className="leading-loose px-3  font-sans text-gray-900">
+            <div className=" p-5 text-start">
+              <p className="leading-loose px-3 text-start  font-sans text-gray-900">
                 “Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
                 they live in Bookmarksgrove right at the coast of the Semantics,
@@ -36,7 +36,7 @@ export default function () {
               className="w-20 h-20 rounded-full object-cover ml-8"
               alt=""
             />
-            <div className=" p-5">
+            <div className=" p-5 text-start">
               <p className="leading-loose px-3 font-sans text-gray-900">
                 “Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
@@ -53,7 +53,7 @@ export default function () {
               alt=""
               className="w-20 h-20 rounded-full object-cover ml-8"
             />
-            <div className=" p-5">
+            <div className=" p-5 text-start">
               <p className="leading-loose px-3 font-sans text-gray-900">
                 “Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated

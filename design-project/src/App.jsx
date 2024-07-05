@@ -2,7 +2,6 @@ import "./App.css";
 import "./index.css";
 import "@fontsource/abril-fatface";
 import "@fontsource/mukta-mahee";
-
 import ImagesSlider from "../src/components/Slider";
 import Footer from "./components/Footer";
 import SkewedSection from "./components/SkewedSection";
@@ -18,21 +17,13 @@ function App() {
   return (
     <>
       <Header />
-
       <Section1 />
-
       <Section2 />
-
       <Section3 />
-
       <ImagesSlider />
-
       <Section4 />
-
       <Section5 />
-
       <Section6 />
-
       <Footer />
     </>
   );

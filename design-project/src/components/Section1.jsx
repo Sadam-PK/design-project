@@ -2,16 +2,14 @@ import mountain from "../assets/img_1_long.jpg.webp";
 import video from "../assets/video-player.svg";
 import VideoButton from "./VideoButton";
 
-
-export default function Section1(){
-    return(
-        
-      <div className="grid grid-cols-2 h-auto p-20">
+export default function Section1() {
+  return (
+    <div className="w-fit px-5 py-10 sm:grid grid-cols-2 h-auto sm:p-32">
       <div>
         <img src={mountain} alt="mountain image" />
       </div>
-      <div className="pl-14">
-        <h1 className="text-4xl mt-44 font-fatface font-extrabold">
+      <div className="sm:pl-14">
+        <h1 className="text-2xl pt-10 px-0 sm:text-3xl sm:mt-44 font-fatface  ">
           Welcome To Our Website
         </h1>
         <p
@@ -35,5 +33,5 @@ export default function Section1(){
         </div>
       </div>
     </div>
-    )
+  );
 }
