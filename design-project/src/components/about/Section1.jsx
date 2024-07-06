@@ -1,5 +1,5 @@
-import mountain from "../assets/img_1_long.jpg.webp";
-import VideoButton from "./VideoButton";
+import mountain from "../../assets/img_1_long.jpg.webp";
+import VideoButton from "../VideoButton";
 
 export default function Section1() {
   return (
@@ -27,9 +27,12 @@ export default function Section1() {
           A small river named Duden flows by their place and supplies it with
           the necessary regelialia.
         </p>
-        <div className="">
-          <VideoButton />
-        </div>
+        <button
+          className="w-80 h-auto border-2 border-customTeal sm:border-2 p-3 rounded-md hover:bg-white
+           hover:text-black sm:w-48 mt-10 text-gray-700 border-solid font-thin font-mukta"
+        >
+          LEARN MORE
+        </button>
       </div>
     </div>
   );

@@ -2,29 +2,27 @@ import "./App.css";
 import "./index.css";
 import "@fontsource/abril-fatface";
 import "@fontsource/mukta-mahee";
-import ImagesSlider from "../src/components/Slider";
+import { Routes, Route } from "react-router-dom";
+
+import Hotel from "./Hotel";
+import Landing from "./Landing";
+import About from "./About";
+import Gallery from "./Gallery";
+import Contact from "./Contact";
 import Footer from "./components/Footer";
-import SkewedSection from "./components/SkewedSection";
 import Header from "./components/Header";
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
-import Section6 from "./components/Section6";
 
 function App() {
   return (
     <>
-      <Header />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <ImagesSlider />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Footer />
+      <Routes>
+        <Route path="/design-project" element={<Landing />} />
+        <Route path="/design-project/hotel" element={<Hotel />} />
+        <Route path="/design-project/about" element={<About />} />
+        <Route path="/design-project/gallery" element={<Gallery />} />
+        <Route path="/design-project/contact" element={<Contact />} />
+      </Routes>
+      <Footer/>
     </>
   );
 }

@@ -7,3 +7,21 @@
   width: 100%;
 }
 /* In your CSS file or inside a <style> tag */
+
+.background2 {
+  background-image: url("../src/assets/hero_5.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.background3 {
+  background-image: url("../src/assets/hero_2.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+}

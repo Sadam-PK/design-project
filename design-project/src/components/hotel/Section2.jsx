@@ -1,18 +1,14 @@
-import food from "../assets/001-breakfast.svg";
-import planet from "../assets/002-planet-earth.svg";
-import airplane from "../assets/003-airplane.svg";
-import beach2 from "../assets/004-beach.svg";
-import mountains from "../assets/005-mountains.svg";
-import balloons from "../assets/006-hot-air-balloon.svg";
-import Experience from "./ExperienceSection";
+import food from "../../assets/../assets/001-breakfast.svg";
+import planet from "../../assets/002-planet-earth.svg";
+import airplane from "../../assets/003-airplane.svg";
+import beach2 from "../../assets/004-beach.svg";
+import mountains from "../../assets/005-mountains.svg";
+import balloons from "../../assets/006-hot-air-balloon.svg";
 
 export default function Section2() {
   return (
-    <div className="mx-auto border-t-2 h-auto leading-loose bg-gray-50">
-      <Experience />
-
+    <div className="mx-auto h-auto leading-loose">
       {/* ------------------------------ */}
-
       <div className="sm:px-20 sm:grid grid-cols-3 text-center">
         <div className="pb-10 sm:p-0 sm:mb-10 flex flex-col items-center">
           <img src={food} alt="food photo" width={80} height="auto" />
