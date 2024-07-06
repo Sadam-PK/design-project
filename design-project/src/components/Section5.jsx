@@ -4,12 +4,12 @@ import person3 from "../assets/person_3.jpg.webp";
 
 export default function () {
   return (
-    <div>
-      <div className="sm:w-4/5 mx-auto text-center  py-20 h-auto">
+    <div className="bg-gray-50">
+      <div className="sm:w-4/5 mx-auto text-center  pt-10 sm:pt-28 h-auto">
         <h2 className="text-3xl sm:p-5 sm:text-7xl  font-fatface">
           Happy Customers
         </h2>
-        <div className="w-2/3 mx-auto text-center py-32"></div>
+        <div className="h-16"></div>
 
         <div className="sm:grid grid-cols-3 italic">
           <div className="w-5/5">

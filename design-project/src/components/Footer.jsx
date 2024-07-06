@@ -6,9 +6,9 @@ import twitter from "../assets/twitter.svg";
 export default function Footer() {
   return (
     <footer className="h-auto bg-black bg-opacity-90 text-white  border-gray-50">
-      <div className="h-32"></div>
+      <div className="h-20 sm:h-28"></div>
       {/* Upper Part */}
-      <div className="w-4/5 mx-auto sm:flex border-b-2 mb-4 border-gray-700 pb-24">
+      <div className="px-5 sm:pl-5 sm:w-4/5 mx-auto sm:flex  pb-24">
         {/* Quick Links */}
         <div className="w-2/4 flex flex-col space-y-5 text-gray-300 font-thin mb-5 sm:mb-0">
           <div className="text-xl mb-1 font-fatface text-white">Quick Link</div>
@@ -61,6 +61,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div
+        className="border-b-2 mb-4 border-gray-700 
+          sm:w-4/5 flex justify-stretch items-center mx-auto"
+      />
 
       {/* Lower Part */}
       <div className="sm:w-3/5 mx-auto grid grid-rows-2">
