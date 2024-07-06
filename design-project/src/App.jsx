@@ -10,7 +10,7 @@ import About from "./About";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Blog from "./Blog";
 
 function App() {
   return (
@@ -21,8 +21,9 @@ function App() {
         <Route path="/design-project/about" element={<About />} />
         <Route path="/design-project/gallery" element={<Gallery />} />
         <Route path="/design-project/contact" element={<Contact />} />
+        <Route path="/design-project/blog" element={<Blog />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }

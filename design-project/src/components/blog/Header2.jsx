@@ -3,8 +3,8 @@ import Menu from "../../components/Menu";
 
 export default function Header2() {
   return (
-    <div className="background3">
-      <div className="background3 relative">
+    <div className="background4">
+      <div className="background4 relative">
         {/* overlay for background */}
         <div className="absolute inset-0 bg-gray-600 opacity-25" />
         <div className="flex justify-between p-5 relative">

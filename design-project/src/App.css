@@ -25,3 +25,13 @@
   height: 75vh;
   width: 100%;
 }
+
+
+.background4 {
+  background-image: url("../src/assets/hero_3.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+}
