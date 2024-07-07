@@ -1,4 +1,4 @@
-import food from "../../assets/../assets/001-breakfast.svg";
+import food from "../../assets/001-breakfast.svg";
 import planet from "../../assets/002-planet-earth.svg";
 import airplane from "../../assets/003-airplane.svg";
 import beach2 from "../../assets/004-beach.svg";

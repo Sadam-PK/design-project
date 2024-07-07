@@ -3,8 +3,8 @@ import Menu from "../../components/Menu";
 
 export default function Header2() {
   return (
-    <div className="background5">
-      <div className="background5 relative">
+    <div className="background6">
+      <div className="background6 relative">
         {/* overlay for background */}
         <div className="absolute inset-0 bg-gray-600 opacity-25" />
         <div className="flex justify-between p-5 relative">
@@ -16,7 +16,7 @@ export default function Header2() {
         justify-center, items-center, relative"
         >
           <h1 className="text-4xl sm:text-7xl font-fatface mb-4 sm:mb-5">
-            About Us
+          Contact
           </h1>
           <h1 className="text-sm  md:text-2xl font-light">
             A free template by{" "}

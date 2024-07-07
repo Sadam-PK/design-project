@@ -16,7 +16,7 @@ export default function Header2() {
         justify-center, items-center, relative"
         >
           <h1 className="text-4xl sm:text-7xl font-fatface mb-4 sm:mb-5">
-            About Us
+          Gallery
           </h1>
           <h1 className="text-sm  md:text-2xl font-light">
             A free template by{" "}
