@@ -1,6 +1,6 @@
 export default function Section2() {
     return (
-      <div className="pt-20 sm:pt-32 sm:pb-0">
+      <div className="pt-20 sm:pt-28 sm:pb-0">
         <div className="w-4/5 sm:w-3/5 mx-auto ">
           <h2 className="text-3xl sm:pb-0 sm:text-7xl text-center font-fatface ">
           Hotel Gallery

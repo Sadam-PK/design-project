@@ -1,18 +1,22 @@
-import mountain from "../../assets/img_1_long.jpg.webp";
+import mountain from "../../assets/hero_1_1.jpg.webp";
 import VideoButton from "../VideoButton";
 
 export default function Section1() {
   return (
     <div className="w-fit px-5 py-10 sm:grid grid-cols-2 h-auto sm:p-32">
       <div>
-        <img src={mountain} alt="mountain image" />
+        <img
+          src={mountain}
+          alt="mountain image"
+          className="object-cover h-screen pb-10"
+        />
       </div>
-      <div className="sm:pl-14">
-        <h1 className="text-2xl pt-10 px-0 sm:text-3xl sm:mt-44 font-fatface  ">
-          Welcome To Our Website
-        </h1>
+      <div className="sm:px-20">
+        <h2 className="text-3xl pt-0 sm:text-4xl sm:mt-24 font-fatface  ">
+          Welcome Travel & Tours
+        </h2>
         <p
-          className="mt-6 leading-loose text-gray-500 font-sans 
+          className="mt-4 leading-loose text-gray-500 font-sans 
         font-light"
         >
           Far far away, behind the word mountains, far from the countries
@@ -22,7 +26,7 @@ export default function Section1() {
         </p>
         <p
           className="mt-6 leading-loose text-gray-500 font-sans 
-        font-light"
+        font-light pr-20"
         >
           A small river named Duden flows by their place and supplies it with
           the necessary regelialia.

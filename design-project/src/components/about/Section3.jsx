@@ -4,9 +4,9 @@ import interior from "../../assets/person_6.jpg.webp";
 
 export default function Section3() {
   return (
-    <div className="h-max pb-20 sm:pb-32 pt-10 sm:pt-20">
+    <div className="h-max pb-20 sm:pb-32 sm:pt-52">
       <div className="h-20 sm:h-52"></div>
-      <h2 className="sm:p-0 text-center text-3xl sm:text-7xl font-fatface">
+      <h2 className="sm:p-0 text-center text-3xl sm:text-4xl font-fatface">
         Team
       </h2>
       <div className="w-4/5 sm:w-3/5 mx-auto h-auto pt-8 text-center py-32 sm:pt-10 sm:pb-16">
@@ -26,10 +26,10 @@ export default function Section3() {
           <img src={fruits} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
             <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
-              FEBRUARY 26, 2018
+              CEO, CO-FOUNDER
             </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
-              45 Best Places To Unwind
+              Vince Richardson
             </h2>
           </div>
         </div>
@@ -38,12 +38,10 @@ export default function Section3() {
           <img src={beach} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
             <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
-              FEBRUARY 26, 2018
+              CTO, CO-FOUNDER
             </p>
 
-            <h2 className="text-xl sm:text-2xl font-fatface pb-3">
-              45 Best Places To Unwind
-            </h2>
+            <h2 className="text-xl sm:text-2xl font-fatface pb-3">Jean Love</h2>
           </div>
         </div>
 
@@ -51,10 +49,10 @@ export default function Section3() {
           <img src={interior} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
             <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
-              FEBRUARY 26, 2018
+              MARKETER, CO-FOUNDER
             </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
-              45 Best Places To Unwind
+              Jeff Stark
             </h2>
           </div>
         </div>
@@ -62,10 +60,10 @@ export default function Section3() {
           <img src={fruits} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
             <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
-              FEBRUARY 26, 2018
+              CEO, CO-FOUNDER
             </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
-              45 Best Places To Unwind
+              Vince Richardson
             </h2>
           </div>
         </div>
@@ -74,12 +72,10 @@ export default function Section3() {
           <img src={beach} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
             <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
-              FEBRUARY 26, 2018
+              CTO, CO-FOUNDER
             </p>
 
-            <h2 className="text-xl sm:text-2xl font-fatface pb-3">
-              45 Best Places To Unwind
-            </h2>
+            <h2 className="text-xl sm:text-2xl font-fatface pb-3">Jean Love</h2>
           </div>
         </div>
 
@@ -87,10 +83,10 @@ export default function Section3() {
           <img src={interior} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
             <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
-              FEBRUARY 26, 2018
+              MARKETER, CO-FOUNDER
             </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
-              45 Best Places To Unwind
+              Jeff Stark
             </h2>
           </div>
         </div>
