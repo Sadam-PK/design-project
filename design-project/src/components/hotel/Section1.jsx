@@ -1,18 +1,23 @@
-import mountain from "../../assets/img_1_long.jpg.webp";
+import mountain from "../../assets/hero_2_1.jpg.webp";
+import hero_1_1 from "../../assets/hero_1_1.jpg.webp";
 
 export default function Section1() {
   return (
     <div>
-      <div className="w-fit px-5 py-10 sm:pb-0 sm:grid grid-cols-2 h-auto sm:p-32">
-        <div>
-          <img src={mountain} alt="mountain image" />
+      <div className="w-fit px-5 sm:pb-0 sm:grid grid-cols-2 h-auto sm:p-28 sm:pt-10">
+        <div className="flex justify-center items-center h-screen">
+          <img
+            src={hero_1_1}
+            alt="mountain image"
+            className="object-cover h-screen pt-20"
+          />
         </div>
-        <div className="sm:pl-14">
-          <h1 className="text-2xl pt-10 px-0 sm:text-3xl sm:mt-44 font-fatface  ">
+        <div className="sm:pl-20 pr-16">
+          <h1 className="text-3xl  px-0 sm:text-4xl sm:mt-40 font-fatface  ">
             Family Room
           </h1>
           <p
-            className="mt-6 leading-loose text-gray-500 font-sans 
+            className="mt-4 leading-loose text-gray-500 font-sans 
         font-light"
           >
             Far far away, behind the word mountains, far from the countries
@@ -39,13 +44,13 @@ export default function Section1() {
 
       {/* ------------- */}
 
-      <div className="w-fit px-5 sm:grid grid-cols-2 h-auto sm:p-32 sm:pt-0">
-        <div className="sm:pl-14">
-          <h1 className="text-2xl pt-10 px-0 sm:text-3xl sm:mt-44 font-fatface  ">
+      <div className="w-fit sm:grid grid-cols-2 h-auto sm:p-32 sm:pb-0 sm:pt-0">
+        <div className="sm:px-20">
+          <h1 className="text-2xl px-0 sm:text-4xl sm:mt-20 font-fatface  ">
             Presidential Room
           </h1>
           <p
-            className="mt-6 leading-loose text-gray-500 font-sans 
+            className="mt-3 leading-loose text-gray-500 font-sans 
         font-light"
           >
             Far far away, behind the word mountains, far from the countries
@@ -69,7 +74,11 @@ export default function Section1() {
           </button>
         </div>
         <div>
-          <img src={mountain} alt="mountain image" />
+          <img
+            src={mountain}
+            alt="mountain image"
+            className="object-cover h-screen pb-20"
+          />
         </div>
       </div>
     </div>
