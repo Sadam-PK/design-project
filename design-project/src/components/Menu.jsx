@@ -18,42 +18,54 @@ export default function Menu() {
 
       {isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"
         >
           <div className="py-1" role="none">
             <a
-              href="#"
+              href="/design-project/"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
             >
-              Account settings
+              Home
             </a>
             <a
-              href="#"
+              href="/design-project/hotel"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
             >
-              Support
+              Hotels
             </a>
             <a
-              href="#"
+              href="/design-project/about"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
             >
-              License
+              About
             </a>
-            <form method="POST" action="#" role="none">
-              <button
-                type="submit"
-                className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                role="menuitem"
-              >
-                Sign out
-              </button>
-            </form>
+            <a
+              href="/design-project/gallery"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+              Gallery
+            </a>
+            <a
+              href="/design-project/blog"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+              News
+            </a>
+            <a
+              href="/design-project/contact"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              role="menuitem"
+            >
+              Contact
+            </a>
           </div>
         </div>
       )}
