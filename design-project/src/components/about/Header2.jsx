@@ -16,7 +16,7 @@ export default function Header2() {
           className="text-white justify-center items-center sm:text-white, flex flex-col 
         justify-center, items-center, relative"
         >
-          <h1 className="text-4xl sm:text-7xl font-fatface mb-4 sm:mb-5">
+          <h1 className="text-4xl font-bold sm:text-7xl font-fatface mb-4 sm:mb-5">
             About Us
           </h1>
           <h1 className="text-sm  md:text-2xl font-light">

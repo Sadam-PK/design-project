@@ -3,9 +3,9 @@ import Menu from "../../components/Menu";
 
 export default function Header2() {
   return (
-    <div className="background5">
-      <div className="background5 relative">
-        {/* overlay for background */}
+    <div className="background4">
+      <div className="background4 relative">
+        {/* overlay for background*/}
         <div className="absolute inset-0 bg-gray-600 opacity-25" />
         <div className="flex justify-between p-5 relative">
           <Logo />
@@ -15,7 +15,7 @@ export default function Header2() {
           className="text-white justify-center items-center sm:text-white, flex flex-col 
         justify-center, items-center, relative"
         >
-          <h1 className="text-4xl sm:text-7xl font-fatface mb-4 sm:mb-5">
+          <h1 className="text-4xl font-bold sm:text-7xl font-fatface mb-4 sm:mb-5">
           Gallery
           </h1>
           <h1 className="text-sm  md:text-2xl font-light">

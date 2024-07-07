@@ -28,7 +28,7 @@
 
 
 .background4 {
-  background-image: url("../src/assets/hero_3.jpg.webp");
+  background-image: url("../src/assets/hero_2.jpg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,7 +37,7 @@
 }
 
 .background5 {
-  background-image: url("../src/assets/hero_2.jpg.webp");
+  background-image: url("../src/assets/hero_3.jpg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
