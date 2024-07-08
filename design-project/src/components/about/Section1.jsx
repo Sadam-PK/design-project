@@ -8,16 +8,16 @@ export default function Section1() {
         <img
           src={mountain}
           alt="mountain image"
-          className="object-cover h-screen pb-10"
+          className="object-cover h-auto sm:h-screen pb-10"
         />
       </div>
       <div className="sm:px-20">
-        <h2 className="text-3xl pt-0 sm:text-4xl sm:mt-24 font-fatface  ">
+        <h1 className="text-2xl pt-0 sm:text-4xl sm:mt-24 font-fatface px-3">
           Welcome Travel & Tours
-        </h2>
+        </h1>
         <p
           className="mt-4 leading-loose text-gray-500 font-sans 
-        font-light"
+        font-light px-3"
         >
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
@@ -26,7 +26,7 @@ export default function Section1() {
         </p>
         <p
           className="mt-6 leading-loose text-gray-500 font-sans 
-        font-light pr-20"
+        font-light pr-20 px-3"
         >
           A small river named Duden flows by their place and supplies it with
           the necessary regelialia.

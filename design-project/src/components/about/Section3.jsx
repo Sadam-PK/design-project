@@ -6,10 +6,10 @@ export default function Section3() {
   return (
     <div className="h-max pb-20 sm:pb-32 sm:pt-52">
       <div className="h-20 sm:h-52"></div>
-      <h2 className="sm:p-0 text-center text-3xl sm:text-4xl font-fatface">
+      <h2 className="pt-32 sm:p-0 text-center text-3xl sm:text-4xl font-fatface">
         Team
       </h2>
-      <div className="w-4/5 sm:w-3/5 mx-auto h-auto pt-8 text-center py-32 sm:pt-10 sm:pb-16">
+      <div className="w-4/5 sm:w-3/5 mx-auto h-auto pt-4 text-center py-32 sm:pt-8 sm:pb-16">
         <p className="py-4 sm:py-0 leading-loose font-light text-gray-600 font-sans text-lg">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
