@@ -7,7 +7,7 @@ export default function Section4() {
     <div className="bg-customTeal h-max pb-20 sm:pb-32 pt-10 sm:pt-20">
       <div className="h-20 sm:h-52"></div>
       <h2 className="sm:p-0 text-center text-3xl sm:text-7xl font-fatface">
-      More Hotel Features
+        Recent Blog Post
       </h2>
       <div className="w-4/5 sm:w-3/5 mx-auto h-auto pt-8 text-center py-32 sm:pt-10 sm:pb-16">
         <p className="py-4 sm:py-0 leading-loose font-light text-gray-200 font-sans text-lg">
@@ -25,7 +25,9 @@ export default function Section4() {
         <div className="bg-white">
           <img src={fruits} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
-            <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">FEBRUARY 26, 2018</p>
+            <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
+              FEBRUARY 26, 2018
+            </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
               45 Best Places To Unwind
             </h2>
@@ -35,12 +37,13 @@ export default function Section4() {
             </p>
           </div>
         </div>
-
 
         <div className="bg-white">
           <img src={beach} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
-            <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">FEBRUARY 26, 2018</p>
+            <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
+              FEBRUARY 26, 2018
+            </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
               45 Best Places To Unwind
             </h2>
@@ -51,12 +54,12 @@ export default function Section4() {
           </div>
         </div>
 
-
-
         <div className="bg-white">
           <img src={interior} className="w-full" alt="" />
           <div className="p-5 sm:pt-5 sm:pb-8 py-8 sm:px-8">
-            <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">FEBRUARY 26, 2018</p>
+            <p className="text-gray-300 font-light sm:pt-5 sm:pb-2">
+              FEBRUARY 26, 2018
+            </p>
             <h2 className="text-xl sm:text-2xl font-fatface pb-3">
               45 Best Places To Unwind
             </h2>

@@ -5,7 +5,7 @@ import mountain_climb from "../../assets/img_5.jpg.webp";
 
 export default function Section1() {
   return (
-    <div className="pt-16 sm:pt-28">
+    <div className="pt-16 sm:pt-28 pb-32">
       <div className="sm:w-4/5 mx-auto h-auto">
         <div className="sm:grid grid-cols-4 p-3 sm:p-0 gap-5">
           <div className="w-full mb-5 sm:mr-5 aspect-w-4 aspect-h-3">

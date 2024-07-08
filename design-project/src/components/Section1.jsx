@@ -8,7 +8,7 @@ export default function Section1() {
         <img src={mountain} alt="mountain image" />
       </div>
       <div className="sm:pl-14">
-        <h1 className="text-2xl pt-10 px-0 sm:text-3xl sm:mt-44 font-fatface  ">
+        <h1 className="text-2xl pt-10 sm:pt-0 px-0 sm:text-3xl sm:mt-44 font-fatface  ">
           Welcome To Our Website
         </h1>
         <p
