@@ -10,7 +10,7 @@ export default function Section2() {
     <div className="mx-auto h-auto leading-loose">
       {/* ------------------------------ */}
       <div className="sm:px-20 sm:grid grid-cols-3 text-center">
-        <div className="pb-10 sm:p-0 sm:mb-10 flex flex-col items-center">
+        <div className="pb-10 -mt-20 sm:-mt-0 sm:p-0 sm:mb-10 flex flex-col items-center">
           <img src={food} alt="food photo" width={80} height="auto" />
           <h1 className="text-3xl pt-6 pb-4 font-fatface">Good Foods</h1>
           <p className="text-gray-500 font-sans text-lg font-light text-center px-3">
@@ -64,7 +64,7 @@ export default function Section2() {
           </p>
         </div>
 
-        <div className="h-20">{/* space */}</div>
+        <div className="sm:h-10">{/* space */}</div>
       </div>
     </div>
   );

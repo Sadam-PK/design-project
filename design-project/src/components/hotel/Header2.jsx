@@ -15,10 +15,10 @@ export default function Header2() {
           className="text-white justify-center items-center sm:text-white, flex flex-col 
         justify-center, items-center, relative"
         >
-          <h1 className="text-4xl font-bold sm:text-7xl font-fatface mb-4 sm:mb-5">
+          <h1 className="text-4xl font-bold sm:text-7xl mt-10 sm:mt-0 font-fatface mb-4 sm:mb-5">
             Our Hotel
           </h1>
-          <h1 className="text-sm  md:text-2xl font-light">
+          <h1 className="text-sm sm:text-2xl font-light">
             A free template by{" "}
             <a
               href="#"
@@ -28,12 +28,6 @@ export default function Header2() {
             </a>
             . Download and share!
           </h1>
-          {/* <button
-            className="w-80 h-auto border-2 border-white sm:border-2 p-3 rounded-md hover:bg-white
-           hover:text-black sm:w-48 mt-10 text-white border-solid font-thin font-mukta"
-          >
-            VISIT COLORLIS
-          </button> */}
         </div>
       </div>
     </div>
