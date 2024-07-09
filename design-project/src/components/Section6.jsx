@@ -12,7 +12,7 @@ export default function Section6() {
         <h2 className="w-2/3 text-center sm:p-5 mx-auto text-3xl sm:text-4xl font-fatface">
           Top Destination
         </h2>
-        <div className="sm:w-2/3 mx-auto text-center py-3 sm:pt-0 sm:pb-20">
+        <div className="sm:w-2/3 mx-auto text-center pt-5 pb-10 sm:pt-0 sm:pb-20">
           <p className="leading-loose font-sans text-gray-500">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor,
             iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis
@@ -25,7 +25,7 @@ export default function Section6() {
           <div className="w-full mb-5 sm:mr-5 aspect-w-4 aspect-h-3">
             <img src={fruits} alt="Food & Wines" className="object-cover" />
             <div>
-              <h2 className="py-1 font-fatface font-extrabold text-xl">
+              <h2 className="py-1 font-fatface text-xl">
                 Food & Wines
               </h2>
               <div className="flex justify-between items-center">
@@ -37,7 +37,7 @@ export default function Section6() {
           <div className="w-full mb-5 sm:mr-5 aspect-w-4 aspect-h-3">
             <img src={beach} alt="Resort & Spa" className="object-cover" />
             <div>
-              <h2 className="py-1 font-fatface font-extrabold text-xl">
+              <h2 className="py-1 font-fatface text-xl">
                 Resort & Spa
               </h2>
               <div className="flex justify-between items-center">
@@ -49,7 +49,7 @@ export default function Section6() {
           <div className="w-full mb-5 sm:mr-5 aspect-w-4 aspect-h-3">
             <img src={interior} alt="Hotel Rooms" className="object-cover" />
             <div>
-              <h2 className="py-1 font-fatface font-extrabold text-xl">
+              <h2 className="py-1 font-fatface text-xl">
                 Hotel Rooms
               </h2>
               <div className="flex justify-between items-center">
@@ -65,7 +65,7 @@ export default function Section6() {
               className="object-cover"
             />
             <div>
-              <h2 className="py-1 font-fatface font-extrabold text-xl">
+              <h2 className="py-1 font-fatface text-xl">
                 Mountain Climbing
               </h2>
               <div className="flex justify-between items-center">
@@ -76,7 +76,7 @@ export default function Section6() {
           </div>
         </div>
       </div>
-      <div className="h-40"></div>
+      <div className="h-20 sm:h-40"></div>
     </div>
   );
 }

@@ -20,7 +20,6 @@ export default function Landing() {
       <Section4 />
       <Section5 />
       <Section6 />
-      {/* <Footer /> */}
     </div>
   );
 }

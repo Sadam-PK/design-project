@@ -9,8 +9,9 @@ export default function Section4() {
       <h2 className="sm:p-0 text-center text-3xl sm:text-7xl font-fatface">
         Recent Blog Post
       </h2>
-      <div className="w-4/5 sm:w-3/5 mx-auto h-auto pt-8 text-center py-32 sm:pt-10 sm:pb-16">
-        <p className="py-4 sm:py-0 leading-loose font-light text-gray-200 font-sans text-lg">
+      <div className="w-5/5 sm:w-3/5 mx-auto h-auto pt-4 text-center py-16 sm:pt-10 sm:pb-16">
+        <p className="sm:py-0 px-3 leading-loose font-light sm:font-normal
+         text-gray-200 font-sans sm:3xl">
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
           live in Bookmarksgrove right at the coast of the Semantics, a large

@@ -28,10 +28,11 @@ export default function Header() {
           . Download and share!
         </h1>
         <button
-          className="w-80 h-auto border-2 border-white sm:border-2 p-3 rounded-md hover:bg-white
-           hover:text-black sm:w-48 mt-10 text-white border-solid font-thin font-mukta"
+          className="w-80 h-auto border-2 border-white sm:border-2 p-3 rounded-md
+           hover:bg-white hover:text-black leading-loose tracking-widest loose 
+           sm:w-48 mt-10 text-gray-200 border-solid font-thin font-mukta"
         >
-          VISIT COLORLIS
+          VISIT COLORLIB
         </button>
       </div>
     </div>
