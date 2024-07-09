@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Routes>
+      <Route path="/" element={<Landing />} />
         <Route path="/design-project" element={<Landing />} />
         <Route path="/design-project/hotel" element={<Hotel />} />
         <Route path="/design-project/about" element={<About />} />
